@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody {
+    width: 100%;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 84.02%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-top: 100px;
+}
+
+#myTable th, #myTable td {
+    text-align: left;
+    /* Left-align text */
+    padding: 12px;
+    /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+input:invalid {
+    border: 3px solid red;
+}
+
+.kemler {
+    height: 250px;
+    width: 395px;
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border: black;
+    border-style: solid;
+    margin-top: 75px;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.lineone {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin: auto;
+    border-bottom: black solid;
+}
+
+.linetwo {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin: auto;
+}
+
+#myInput {
+    width: 50%;
+    /* Full-width */
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    outline: none;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+#myInput:focus {
+    border: none;
+    outline: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
